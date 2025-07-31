@@ -9,7 +9,7 @@ builder.Services.AddControllers(o =>
     //add sample filter into the ASP.NET core pipeline 
     //applied at global level 
     //every controlller requets 
-    o.Filters.Add(new MySampleActionFilterAttribute("Global" , 1));//order lower the earlier
+    //o.Filters.Add(new MySampleActionFilterAttribute("Global" , 1));//order lower the earlier
 
 
     //commented as now it is being used as attribute 
